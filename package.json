@@ -1,0 +1,19 @@
+{
+  "name": "tourl",
+  "version": "1.0.0",
+  "description": "toUrl(string, base_url, boolean);",
+  "main": "toUrl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anaeljonasgit/to-url.git"
+  },
+  "author": "Anael Jonas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anaeljonasgit/to-url/issues"
+  },
+  "homepage": "https://github.com/anaeljonasgit/to-url#readme"
+}
