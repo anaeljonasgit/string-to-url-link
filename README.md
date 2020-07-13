@@ -1,4 +1,4 @@
-A Node.JS/JavaScript lib that convertes String texts in perfect URL's links for the web. You can pass titles, paragraphs or post names that it will convertes this string in an URL link for you can use in your site/blog.
+A Node.JS/JavaScript lib that convertes strings to perfect URL's links for the web. You can pass titles, paragraphs or post names to get an URL link useful in your site/blog.
 
 # News Features
 
@@ -18,7 +18,7 @@ A Node.JS/JavaScript lib that convertes String texts in perfect URL's links for 
 - FORWARD: Controls the last '/' in your BASE_URL (Default is True).
 - WORD_LIMIT: Controls the amount of words that goes in your final url.
 - PARAM: The param that you need after the principal toUrl base.
-- PARAM_TOURL: If you want to apply toUrl() again in the param.
+- PARAM_TOURL: If you want to apply toUrl() again in the param (Default is True).
 
 ## Examples
 
