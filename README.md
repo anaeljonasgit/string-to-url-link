@@ -38,4 +38,4 @@
 toUrl('Title of my post', 'http://blog.com?=', false);
 > 'http://blog.com?=title-of-my-post'
 
-### "Thanks! This is my first lib!" - Anael Jonas (12 de Julho de 2020)
+### "Thanks! It's my first lib!" - Anael Jonas (12 de Julho de 2020)
