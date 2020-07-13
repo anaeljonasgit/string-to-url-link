@@ -53,5 +53,10 @@ A Node.JS/JavaScript lib that convertes String texts in perfect URL's links for 
 ### > toUrl('Title of my post', 'http://blog.com', true, 2);
 > 'http://blog.com/title-of'
 
+# 5. Just title with limit of words
+
+### > toUrl('Title of my post', false, 2);
+> 'title-of'
+
 
 #### "Thanks! It's my first lib!" - Anael Jonas (12 de Julho de 2020)
