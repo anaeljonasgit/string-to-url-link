@@ -1,9 +1,10 @@
-function toUrl(string, base_url, boolean){
+function toUrl(string, base_url, boolean, word_limit){
 	string = string.toLowerCase().split(' '); New_string = [];
 	string.filter(word => { New_string.push(
 		word.normalize("NFD").replace(/[^a-zA-Zs]/g, '')
-	) });
-	if (base_url){
+	) }); if (word_limit || typeof(boolean) == 'number'){
+		New_string.splice(word_limit || boolean, New_string.length-1)
+	}; if (base_url){
 		last = base_url[base_url.length-1];
 		if (typeof(boolean) == 'boolean' && !boolean && last == '/'){
 			base_url = base_url.slice(0, -1)

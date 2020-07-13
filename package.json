@@ -1,6 +1,6 @@
 {
   "name": "tourl",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "toUrl(string, base_url, boolean);",
   "main": "toUrl.js",
   "scripts": {
