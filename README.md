@@ -11,11 +11,11 @@ A Node.JS/JavaScript lib that convertes String texts in perfect URL's links for 
 
 > const toUrl = require('./to-url/toUrl');
 
-# toUrl(string, base_url, boolean, word_limit, param, param_toUrl);
+# toUrl(string, base_url, forward, word_limit, param, param_toUrl);
 
 - STRING: Title of your post.
 - BASE_URL: The base of your URL.
-- BOOLEAN: Controls the last '/' in your BASE_URL (Default is True).
+- FORWARD: Controls the last '/' in your BASE_URL (Default is True).
 - WORD_LIMIT: Controls the amount of words that goes in your final url.
 - PARAM: The param that you need after the principal toUrl base.
 - PARAM_TOURL: If you want to apply toUrl() again in the param.
