@@ -24,7 +24,7 @@ A Node.JS/JavaScript lib that convertes String texts in perfect URL's links for 
 ### > toUrl('Title of my post');
 > 'title-of-my-post'
 
-# 2. Title and base url
+# 2. Title with base url
 
 ### > toUrl('Title of my post', 'http://blog.com');
 > 'http://blog.com/title-of-my-post'
@@ -35,17 +35,22 @@ A Node.JS/JavaScript lib that convertes String texts in perfect URL's links for 
 ### > toUrl('Title of my post', 'http://blog.com', true);
 > 'http://blog.com/title-of-my-post'
 
-# 3. Title with the base url, but without the last '/'
+# 3. Title with base url, but without the last '/'
 
 ### > toUrl('Title of my post', 'http://blog.com/', false);
 > 'http://blog.comtitle-of-my-post'
 
-#### This is for the case that you have of something like:
+This is for the case that you have of something like:
 
 ### > toUrl('Title of my post', 'http://blog.com?=', false);
 > 'http://blog.com?=title-of-my-post'
 
-# 4. Title with the base url and limit of words
+# 4. Just title with limit of words
+
+### > toUrl('Title of my post', false, 2);
+> 'title-of'
+
+# 5. Title with base url and limit of words
 
 ### > toUrl('Title of my post', 'http://blog.com', 2);
 > 'http://blog.com/title-of'
@@ -53,10 +58,13 @@ A Node.JS/JavaScript lib that convertes String texts in perfect URL's links for 
 ### > toUrl('Title of my post', 'http://blog.com', true, 2);
 > 'http://blog.com/title-of'
 
-# 5. Just title with limit of words
+# 6. Title with base url, without the last '/' and with limit of words
 
-### > toUrl('Title of my post', false, 2);
-> 'title-of'
+### > toUrl('Title of my post', 'http://blog.com', false, 2);
+> 'http://blog.comtitle-of'
+
+### > toUrl('Title of my post', 'http://blog.com?=', false, 2);
+> 'http://blog.com?=title-of'
 
 
 #### "Thanks! It's my first lib!" - Anael Jonas (12 de Julho de 2020)
