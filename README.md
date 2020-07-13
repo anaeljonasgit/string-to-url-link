@@ -2,7 +2,7 @@
 
 ## Importing
 
-> const toUrl = require('./toUrl/toUrl');
+> const toUrl = require('./to-url/toUrl');
 
 # toUrl(string, base_url, boolean);
 
