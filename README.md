@@ -82,4 +82,4 @@ A Node.JS/JavaScript lib that convertes String texts in perfect URL's links for 
 
 
 #### Created by Anael Jonas (@anaeljonasgit)
-#### Colaboration of 'param' idea by Jefferson Mendes (@jeferson-mendes)
+#### Colaboration of 'param' idea by Jeferson Mendes (@jeferson-mendes)
