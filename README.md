@@ -7,7 +7,7 @@
 # toUrl(string, base_url, boolean);
 
 - STRING: Title of your post.
-- BASE_URL: THE BASE OF URL :O.
+- BASE_URL: THE BASE OF YOUR URL.
 - BOOLEAN: Control the last '/' in your BASE_URL. Default is True.
 
 ## Examples
@@ -20,26 +20,22 @@
 ### Title and base url
 
 #### toUrl('Title of my post', 'http://blog.com');
-> 'http://www.blog.com/title-of-my-post'
-
-##### or
+> 'http://blog.com/title-of-my-post'
 
 #### toUrl('Title of my post', 'http://blog.com/');
-> 'http://www.blog.com/title-of-my-post'
-
-##### or
+> 'http://blog.com/title-of-my-post'
 
 #### toUrl('Title of my post', 'http://blog.com', true);
-> 'http://www.blog.com/title-of-my-post'
+> 'http://blog.com/title-of-my-post'
 
-#### Title with the base url, but without the last '/'
+### Title with the base url, but without the last '/'
 
 toUrl('Title of my post', 'http://blog.com/', false);
-> 'http://www.blog.comtitle-of-my-post'
+> 'http://blog.comtitle-of-my-post'
 
-##### This is for the case of something like
+#### This is for the case that you have of something like
 
 toUrl('Title of my post', 'http://blog.com?=', false);
-> 'http://www.blog.com?=title-of-my-post'
+> 'http://blog.com?=title-of-my-post'
 
-###CREATE BY ANAEL JONAS | 12 JUN 2020.
+# CREATE BY ANAEL JONAS | 12 JUN 2020.
