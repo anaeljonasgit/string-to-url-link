@@ -12,12 +12,12 @@
 
 ## Examples
 
-### 1. Just the title
+## 1. Just the title
 
 #### toUrl('Title of my post');
 > 'title-of-my-post'
 
-### 2. Title and base url
+## 2. Title and base url
 
 #### toUrl('Title of my post', 'http://blog.com');
 > 'http://blog.com/title-of-my-post'
@@ -28,7 +28,7 @@
 #### toUrl('Title of my post', 'http://blog.com', true);
 > 'http://blog.com/title-of-my-post'
 
-### 3. Title with the base url, but without the last '/'
+## 3. Title with the base url, but without the last '/'
 
 toUrl('Title of my post', 'http://blog.com/', false);
 > 'http://blog.comtitle-of-my-post'
