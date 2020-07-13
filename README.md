@@ -79,5 +79,7 @@ A Node.JS/JavaScript lib that convertes String texts in perfect URL's links for 
 > ### toUrl('Title of my post', 'http://blog.com', true, false, 'My param', true);
 > 'http://blog.com/title-of-my-post/my-param'
 
-#### Colaboration of 'param' idea by Jefferson Mendes (@jeferson-mendes)
+
+
 #### Created by Anael Jonas (@anaeljonasgit)
+#### Colaboration of 'param' idea by Jefferson Mendes (@jeferson-mendes)
