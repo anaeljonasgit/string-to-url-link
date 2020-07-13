@@ -40,9 +40,9 @@ A Node.JS/JavaScript lib that convertes String texts in perfect URL's links for 
 ### toUrl('Title of my post', 'http://blog.com/', false);
 > 'http://blog.comtitle-of-my-post'
 
-#### This is for the case that you have of something like
+#### This is for the case that you have of something like:
 
-toUrl('Title of my post', 'http://blog.com?=', false);
+### toUrl('Title of my post', 'http://blog.com?=', false);
 > 'http://blog.com?=title-of-my-post'
 
 ## 4. Title with the base url and limit of words
@@ -53,4 +53,4 @@ toUrl('Title of my post', 'http://blog.com?=', false);
 ### toUrl('Title of my post', 'http://blog.com', true, 2);
 > 'http://blog.com/title-of'
 
-### "Thanks! It's my first lib!" - Anael Jonas (12 de Julho de 2020)
+"Thanks! It's my first lib!" - Anael Jonas (12 de Julho de 2020)
