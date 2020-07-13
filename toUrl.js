@@ -13,4 +13,4 @@ function toUrl(string, base_url, boolean){
 		}; if (last == '/'){ base_url = base_url.slice(0, -1) };
 		return base_url+'/'+New_string.join('-');
 	}; return New_string.join('-');
-}
+}; module.exports = toUrl;

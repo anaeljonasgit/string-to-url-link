@@ -1,4 +1,8 @@
-#How to use the toUrl() lib
+#How to use
+
+##Importing
+
+> const toUrl = require('./toUrl/toUrl');
 
 toUrl(string, base_url, boolean);
 
