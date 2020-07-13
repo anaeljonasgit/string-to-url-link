@@ -7,7 +7,7 @@
 # toUrl(string, base_url, boolean);
 
 - STRING: Title of your post.
-- BASE_URL: THE BASE OF YOUR URL.
+- BASE_URL: The base of your URL.
 - BOOLEAN: Control the last '/' in your BASE_URL. Default is True.
 
 ## Examples
