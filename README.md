@@ -22,9 +22,9 @@ A Node.JS/JavaScript lib that convertes String texts in perfect URL's links for 
 
 ## Examples
 
-# 1. Just the title
-
-### > toUrl('Title of my post');
+> # 1. Just the title
+> 
+> ### toUrl('Title of my post');
 > 'title-of-my-post'
 
 # 2. Title with base url
@@ -78,7 +78,6 @@ This is for the case that you have of something like:
 
 ### > toUrl('Title of my post', 'http://blog.com', true, false, 'My param', true);
 > 'http://blog.com/title-of-my-post/my-param'
-
 
 #### Created by Anael Jonas (@anaeljonasgit)
 #### Colaboration of 'param' idea by Jefferson Mendes (@jeferson-mendes)
