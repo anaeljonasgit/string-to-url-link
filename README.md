@@ -1,4 +1,4 @@
-A Node.JS/JavaScript lib that convertes String texts in perfect URL's links for the web. You can pass titles, paragraphs or post names that it will convertes this string in an URL link that you can use in your site/blog.
+A Node.JS/JavaScript lib that convertes String texts in perfect URL's links for the web. You can pass titles, paragraphs or post names that it will convertes this string in an URL link for you can use in your site/blog.
 
 # News Features
 
