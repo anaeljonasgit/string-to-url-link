@@ -30,7 +30,7 @@
 
 ## 3. Title with the base url, but without the last '/'
 
-toUrl('Title of my post', 'http://blog.com/', false);
+#### toUrl('Title of my post', 'http://blog.com/', false);
 > 'http://blog.comtitle-of-my-post'
 
 #### This is for the case that you have of something like
@@ -38,4 +38,4 @@ toUrl('Title of my post', 'http://blog.com/', false);
 toUrl('Title of my post', 'http://blog.com?=', false);
 > 'http://blog.com?=title-of-my-post'
 
-### CREATE BY ANAEL JONAS | 12 JUN 2020.
+### "Thanks! This is my first lib!" | CREATE BY ANAEL JONAS | 12 JUN 2020.
