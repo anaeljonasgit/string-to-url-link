@@ -4,6 +4,7 @@ A Node.JS/JavaScript lib that convertes strings to perfect URL's links for the w
 
 - Word limit.
 - Param after principal toUrl base.
+- Fixed bug of numbers in final link.
 
 # How to use
 
